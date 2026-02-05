@@ -1,5 +1,15 @@
 // Map initialization script for IBS-CRFS
 document.addEventListener('DOMContentLoaded', function() {
+    // Check if Leaflet is loaded
+    if (typeof L === 'undefined') {
+        console.error('Leaflet library not loaded. Map functionality will not be available.');
+        const mapElement = document.getElementById('map');
+        if (mapElement) {
+            mapElement.innerHTML = '<div style="display: flex; align-items: center; justify-content: center; height: 100%; background-color: #f5f5f5; padding: 2rem; text-align: center;"><p style="color: #666;">Map is loading. If the map does not appear, please check your internet connection or try refreshing the page.</p></div>';
+        }
+        return;
+    }
+
     // Initialize the map centered on Brazil
     const map = L.map('map').setView([-7.1195, -34.8450], 6);
 
