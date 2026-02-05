@@ -1,0 +1,173 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.8450, -7.1195]
+      },
+      "properties": {
+        "site_name": "Atlantic Forest Site 1",
+        "location": "João Pessoa, Paraíba",
+        "ecosystem": "Atlantic Forest",
+        "date": "2023-05-15",
+        "species": "45 species (Collembola, Acari, Coleoptera)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-35.2050, -7.2400]
+      },
+      "properties": {
+        "site_name": "Atlantic Forest Site 2",
+        "location": "Mata do Buraquinho, PB",
+        "ecosystem": "Atlantic Forest",
+        "date": "2023-06-20",
+        "species": "38 species (Collembola, Oligochaeta)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-36.7820, -7.2308]
+      },
+      "properties": {
+        "site_name": "Caatinga Site 1",
+        "location": "Patos, Paraíba",
+        "ecosystem": "Caatinga",
+        "date": "2023-07-10",
+        "species": "25 species (Acari, Araneae, Isopoda)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-38.5014, -6.5878]
+      },
+      "properties": {
+        "site_name": "Caatinga Site 2",
+        "location": "Sousa, Paraíba",
+        "ecosystem": "Caatinga",
+        "date": "2023-08-05",
+        "species": "30 species (Collembola, Diplopoda)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-35.0100, -7.5200]
+      },
+      "properties": {
+        "site_name": "Agricultural Site 1",
+        "location": "Região Metropolitana, PB",
+        "ecosystem": "Agricultural",
+        "date": "2023-09-12",
+        "species": "20 species (Oligochaeta, Coleoptera)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-47.8825, -15.7942]
+      },
+      "properties": {
+        "site_name": "Cerrado Site 1",
+        "location": "Brasília, DF",
+        "ecosystem": "Cerrado",
+        "date": "2024-01-20",
+        "species": "52 species (Collembola, Acari, Hymenoptera)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-48.0339, -15.8998]
+      },
+      "properties": {
+        "site_name": "Cerrado Site 2",
+        "location": "Parque Nacional de Brasília",
+        "ecosystem": "Cerrado",
+        "date": "2024-02-15",
+        "species": "48 species (Acari, Collembola, Chilopoda)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-35.2000, -5.7945]
+      },
+      "properties": {
+        "site_name": "Atlantic Forest Site 3",
+        "location": "Natal, Rio Grande do Norte",
+        "ecosystem": "Atlantic Forest",
+        "date": "2024-03-10",
+        "species": "42 species (Collembola, Acari, Araneae)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.9000, -8.0500]
+      },
+      "properties": {
+        "site_name": "Atlantic Forest Site 4",
+        "location": "Recife, Pernambuco",
+        "ecosystem": "Atlantic Forest",
+        "date": "2024-04-05",
+        "species": "55 species (Collembola, Acari, Coleoptera, Oligochaeta)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.8700, -7.1300]
+      },
+      "properties": {
+        "site_name": "Urban Site 1",
+        "location": "Campus UFPB, João Pessoa",
+        "ecosystem": "Urban",
+        "date": "2024-05-01",
+        "species": "18 species (Collembola, Oligochaeta)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-37.0500, -7.2200]
+      },
+      "properties": {
+        "site_name": "Caatinga Site 3",
+        "location": "Campina Grande, Paraíba",
+        "ecosystem": "Caatinga",
+        "date": "2024-06-15",
+        "species": "28 species (Acari, Collembola, Isopoda)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-35.5000, -7.4000]
+      },
+      "properties": {
+        "site_name": "Agricultural Site 2",
+        "location": "Zona Rural, PB",
+        "ecosystem": "Agricultural",
+        "date": "2024-07-20",
+        "species": "22 species (Oligochaeta, Collembola, Coleoptera)"
+      }
+    }
+  ]
+}
