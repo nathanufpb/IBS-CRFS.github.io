@@ -246,6 +246,18 @@ main {
     font-size: 2rem;
 }
 
+.video-meta {
+    max-width: 900px;
+    margin: 0 auto 1.5rem auto;
+    color: var(--text-light);
+    text-align: center;
+    line-height: 1.5;
+}
+
+.video-meta strong {
+    color: var(--primary-color);
+}
+
 .video-wrapper {
     position: relative;
     width: 100%;
