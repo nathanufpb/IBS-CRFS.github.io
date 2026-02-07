@@ -248,7 +248,7 @@ main {
 
 .video-meta {
     max-width: 900px;
-    margin: 0 auto 1.5rem auto;
+    margin: 1rem auto 0 auto;
     color: var(--text-light);
     text-align: center;
     line-height: 1.5;
@@ -341,6 +341,106 @@ main {
     position: absolute;
     left: 0;
     color: var(--accent-color);
+}
+
+/* Tables */
+.table-controls {
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+}
+
+.table-controls label {
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.table-controls input {
+    flex: 1 1 260px;
+    padding: 0.6rem 0.8rem;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    font-size: 0.95rem;
+}
+
+.table-controls input:focus {
+    outline: 2px solid var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.table-scroll {
+    width: 100%;
+    overflow: auto;
+    box-shadow: var(--shadow);
+    border-radius: 8px;
+    background: var(--white);
+    margin-bottom: 2rem;
+    max-height: 420px;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 720px;
+    font-size: 0.93rem;
+}
+
+.data-table thead {
+    background: var(--primary-color);
+    color: var(--white);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.12);
+}
+
+.data-table th,
+.data-table td {
+    padding: 0.7rem 0.9rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.data-table th {
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.data-table td {
+    line-height: 1.4;
+}
+
+.data-table td:nth-child(1) {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.data-table td:nth-child(9) {
+    white-space: nowrap;
+}
+
+.data-table tbody tr:nth-child(even) {
+    background: var(--bg-light);
+}
+
+.data-table tbody tr:hover {
+    background: rgba(74, 124, 89, 0.08);
+}
+
+.table-meta {
+    margin: 0.5rem 0 1rem 0;
+    color: var(--text-light);
+    font-size: 0.95rem;
+}
+
+.table-status {
+    margin: 0.2rem 0 1rem 0;
+    color: #b33;
+    font-weight: 600;
 }
 
 /* Map Section */

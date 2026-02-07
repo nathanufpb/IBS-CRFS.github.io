@@ -6,6 +6,7 @@
     <meta name="description" content="IBS-CRFS Collection - Soil Fauna Reference Collection">
     <title>IBS-CRFS - Collection</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
 </head>
 <body>
     <header>
@@ -45,62 +46,51 @@
 
                     <div class="collection-stats">
                         <div class="stat-item">
-                            <h4>5,000+</h4>
+                            <h4>12,869</h4>
                             <p>Specimens</p>
                         </div>
                         <div class="stat-item">
-                            <h4>200+</h4>
-                            <p>Species</p>
+                            <h4>185</h4>
+                            <p>Species (scientificName)</p>
                         </div>
                         <div class="stat-item">
-                            <h4>50+</h4>
+                            <h4>18</h4>
                             <p>Families</p>
                         </div>
                         <div class="stat-item">
-                            <h4>15+</h4>
+                            <h4>10</h4>
                             <p>Orders</p>
                         </div>
                     </div>
 
-                    <h3>Major Taxonomic Groups</h3>
-                    
-                    <div class="taxonomic-groups">
-                        <div class="group-item">
-                            <h4>Arthropods</h4>
-                            <ul>
-                                <li><strong>Acari</strong> - Mites and ticks</li>
-                                <li><strong>Collembola</strong> - Springtails</li>
-                                <li><strong>Coleoptera</strong> - Beetles</li>
-                                <li><strong>Hymenoptera</strong> - Ants and other hymenopterans</li>
-                                <li><strong>Diplopoda</strong> - Millipedes</li>
-                                <li><strong>Chilopoda</strong> - Centipedes</li>
-                                <li><strong>Araneae</strong> - Spiders</li>
-                            </ul>
-                        </div>
-
-                        <div class="group-item">
-                            <h4>Annelids</h4>
-                            <ul>
-                                <li><strong>Oligochaeta</strong> - Earthworms</li>
-                                <li><strong>Enchytraeidae</strong> - Potworms</li>
-                            </ul>
-                        </div>
-
-                        <div class="group-item">
-                            <h4>Molluscs</h4>
-                            <ul>
-                                <li><strong>Gastropoda</strong> - Snails and slugs</li>
-                            </ul>
-                        </div>
-
-                        <div class="group-item">
-                            <h4>Other Groups</h4>
-                            <ul>
-                                <li><strong>Nematoda</strong> - Roundworms</li>
-                                <li><strong>Isopoda</strong> - Woodlice</li>
-                            </ul>
-                        </div>
+                    <h3>Catálogo da coleção</h3>
+                    <p> Use a busca para filtrar por qualquer campo Darwin Core exibido. Exibição limitada para desempenho.</p>
+                    <div class="table-controls">
+                        <label for="collection-search">Buscar:</label>
+                        <input type="text" id="collection-search" placeholder="Digite qualquer campo (ex: catalogNumber, order, family, genus, scientificName, locality, eventDate...)" aria-label="Buscar na tabela da coleção">
                     </div>
+                    <div class="table-meta" id="collection-meta">Carregando registros...</div>
+                    <div class="table-status" id="collection-status" aria-live="polite"></div>
+                    <div class="table-scroll">
+                        <table class="data-table" id="collection-table">
+                            <thead>
+                                <tr>
+                                    <th>catalogNumber</th>
+                                    <th>order</th>
+                                    <th>family</th>
+                                    <th>genus</th>
+                                    <th>scientificName</th>
+                                    <th>stateProvince</th>
+                                    <th>municipality</th>
+                                    <th>locality</th>
+                                    <th>eventDate</th>
+                                    <th>preparations</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                    <p class="table-meta">Mostrando até 500 linhas por filtro para manter a navegação rápida.</p>
 
                     <h3>Preservation Methods</h3>
                     <p>Our specimens are preserved using various methods appropriate to each taxonomic group:</p>

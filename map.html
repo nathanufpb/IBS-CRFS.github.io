@@ -7,6 +7,7 @@
     <title>IBS-CRFS - Interactive Map</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
 </head>
 <body>
     <header>
@@ -42,6 +43,7 @@
             <div class="container">
                 <div class="map-info">
                     <p>This map shows the locations where soil fauna samples have been collected. Click on markers to view detailed information about each sampling site.</p>
+                    <p id="map-status" class="table-meta" aria-live="polite"></p>
                 </div>
                 <div id="map"></div>
             </div>
@@ -57,9 +59,7 @@
                     <p>For each sampling site, we record:</p>
                     <ul>
                         <li>Geographic coordinates (latitude and longitude)</li>
-                        <li>Elevation</li>
                         <li>Ecosystem type (forest, grassland, agricultural, etc.)</li>
-                        <li>Soil characteristics</li>
                         <li>Sampling date and methodology</li>
                         <li>List of species collected</li>
                     </ul>
